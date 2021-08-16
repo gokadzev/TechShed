@@ -1,9 +1,20 @@
+@media only screen and (max-width: 1250px) {
+    .hotDeals-area .cards-area {
+        flex-wrap: wrap;
+    }
+}
 
-
+@media only screen and (min-width: 990px) and (max-width: 1300px) {
+    .products-area .cards-area .card {
+        margin:0px 1%;
+    }
+}
 
 @media only screen and (max-width: 990px) {
 
-    .helpText h1, .navbar-title h1, .banner1 .right h3 {
+    .helpText h1,
+    .navbar-title h1,
+    .banner1 .right h3 {
         font-size: 3vw;
     }
 
@@ -112,10 +123,10 @@
     .crtext {
         height: 30px;
     }
-    
+
 
     .d-flex {
-        display: none!important;
+        display: none !important;
     }
 
     .navbar-collapse {
@@ -129,7 +140,8 @@
 
 @media only screen and (max-width: 768px) {
 
-    .helpText h1, .navbar-title h1 {
+    .helpText h1,
+    .navbar-title h1 {
         font-size: 6vw;
     }
 
@@ -221,22 +233,35 @@
     .banner1Button {
         margin-right: 21px;
     }
-    
+
     .navigationList {
         margin: 0px 10px;
     }
 
-    .navigationList a, .navigationList p {
+    .navigationList a,
+    .navigationList p {
         font-size: 12px;
     }
 
+}
+
+@media only screen and (max-width: 600px){
+    .navigationList {
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+    }
+
+    .products-nav, .policy-nav, .openHours-nav, .openHours-nav, .storeLocation-nav {
+        width: 50%;
+        max-width: none;
+    }
 }
 
 
 @media only screen and (max-width: 425px) {
 
     .products-area .cards-area .card {
-
         inline-size: auto;
     }
 

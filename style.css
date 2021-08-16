@@ -25,6 +25,12 @@ a:hover {
     color: black;
 }
 
+button:focus,
+a.btn-dark:focus {
+    outline: 0;
+    border: 0;
+}
+
 .navbarFirst {
     display: flex;
     justify-content: space-between;
@@ -34,17 +40,17 @@ a:hover {
 
 .nav-link {
     font-family: 'Nunito', sans-serif;
-    color: black!important;
+    color: black !important;
     font-weight: 100;
 }
 
 .active {
-    color: #751FFF!important;
+    color: #751FFF !important;
 }
 
 .navButtons a {
     font-family: 'Nunito', sans-serif;
-    color: black!important;
+    color: black !important;
     font-weight: 100;
     font-size: 20px;
     justify-content: center;
@@ -56,11 +62,13 @@ a:hover {
 }
 
 .nav-link:hover {
-    color: #751FFF!important;
+    color: #751FFF !important;
 }
 
 .navButtons {
     display: flex;
+    justify-content: space-between;
+    width: 175px;
 }
 
 .navB1 {
@@ -68,7 +76,9 @@ a:hover {
     text-align: center;
     align-items: center;
 }
-.navB1 h5, .navB1 p {
+
+.navB1 h5,
+.navB1 p {
     margin-left: 10px;
     margin-bottom: 0px;
     font-weight: 100;
@@ -80,10 +90,12 @@ a:hover {
 
 .navbar-title {
     margin-left: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-title h1 {
-    font-size: 3.125rem;
+    font-size: 2.125rem;
 }
 
 .discount {
@@ -110,6 +122,7 @@ a:hover {
     width: 30%;
     margin: auto;
 }
+
 .mainBanner .left h1 {
     font-size: 50px;
 }
@@ -124,13 +137,13 @@ a:hover {
     background: url(https://static.wixstatic.com/media/c22c23_74cafbca21f34feeba648b9e2fd0f9cc~mv2.jpg/v1/fill/w_1343,h_360,al_r,q_85,usm_0.66_1.00_0.01/c22c23_74cafbca21f34feeba648b9e2fd0f9cc~mv2.webp);
 }
 
-.banner2 h3{
+.banner2 h3 {
     color: white;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
 }
 
-.banner2 h1{
+.banner2 h1 {
     color: white;
     max-width: 300px;
 }
@@ -140,12 +153,12 @@ a:hover {
     margin: 100px;
 }
 
-.banner2Button{
+.banner2Button {
     max-width: 170px;
     width: 100%;
 }
 
-.suggestions {
+.suggestions, .products-area .cards-area, .hotDeals-area .cards-area, .expectation-from-our-company {
     display: flex;
     justify-content: space-between;
 }
@@ -191,7 +204,6 @@ a:hover {
 }
 
 
-
 .shopButton {
     border: none;
     background-color: #751FFF;
@@ -227,20 +239,16 @@ a:hover {
     background-color: #000000;
 }
 
-.products-area .cards-area {
-    display: flex;
-    justify-content: space-between;
-}
-
 .products-area .cards-area .card {
     border: none;
     background-color: unset;
     max-width: 236px;
     max-height: 360px;
     width: 100%;
+    margin: 0px 2%;
 }
 
-.products-area .card .cardImage{
+.products-area .card .cardImage {
     overflow: hidden;
 }
 
@@ -251,18 +259,18 @@ a:hover {
 }
 
 
-.products-area .card:hover > .cardImage img {
+.products-area .card:hover>.cardImage img {
     transform: scale(1.3);
 }
 
-.product-prices{
+.product-prices {
     display: flex;
 }
 
 .discountpr {
     font-family: 'Nunito', sans-serif;
     font-weight: 100;
-    color:#524E4E;
+    color: #524E4E;
     text-decoration: line-through;
     margin-right: 15px;
     font-size: 20px;
@@ -271,7 +279,7 @@ a:hover {
 .price {
     font-weight: 100;
     font-family: 'Nunito', sans-serif;
-    color:#524E4E;
+    color: #524E4E;
     font-size: 20px;
 }
 
@@ -313,13 +321,11 @@ a:hover {
     transition: 1.2s;
 }
 
-.categoryPhoneImage img{
+.categoryPhoneImage img {
     max-width: unset;
     margin-left: 0px;
 
 }
-
-
 
 
 .hotdeal-image {
@@ -330,7 +336,7 @@ a:hover {
     transition: 0.7s;
 }
 
-.hotDeals-area .card:hover > .hotdeal-image img {
+.hotDeals-area .card:hover>.hotdeal-image img {
     transform: scale(1.3);
 }
 
@@ -340,7 +346,8 @@ a:hover {
     max-width: 190px;
 }
 
-.hotDeals-area .card-body, .products-area .card-body {
+.hotDeals-area .card-body,
+.products-area .card-body {
     padding: 1rem 0rem;
 }
 
@@ -349,6 +356,7 @@ a:hover {
     max-width: 360px;
     width: 100%;
 }
+
 .shop-area .left {
     margin-right: 20px;
     z-index: 1;
@@ -364,7 +372,7 @@ a:hover {
     width: 394px;
 }
 
-.categories-area .card  {
+.categories-area .card {
     height: 238px;
     overflow: hidden;
 }
@@ -376,7 +384,7 @@ a:hover {
 
 
 .shopCatButton {
-    
+
     width: 190px;
     height: 45px;
 }
@@ -407,11 +415,6 @@ a:hover {
     color: black;
 }
 
-.hotDeals-area .cards-area {
-    display: flex;
-    justify-content: space-between;
-}
-
 .hotDeals-area .card img {
     width: 100%;
     max-width: 190px;
@@ -428,14 +431,11 @@ a:hover {
     padding-bottom: 4%;
 }
 
-.brands-area img{
+.brands-area img {
     max-width: 300px;
     height: 140px;
     width: 100%;
 }
-
-
-
 
 .input-subscribe {
     display: flex;
@@ -514,33 +514,17 @@ a:hover {
 }
 
 .navigationList h3 {
-    color:black
+    color: black
 }
 
-.products-nav{
-    display: grid;
-    max-width: 25%;
-}
-
-.policy-nav {
-    display: grid;
-    max-width: 25%;
-}
-
-.openHours-nav {
-    display: grid;
-    max-width: 25%;
-}
-
+.products-nav,
+.policy-nav,
+.openHours-nav,
 .storeLocation-nav {
     display: grid;
     max-width: 25%;
 }
 
-.expectation-from-our-company  {
-    display: flex;
-    justify-content: space-between;
-}
 
 .expectation-from-our-company .card {
     height: 373px;
@@ -621,10 +605,11 @@ p {
 
 
 main {
-    margin:0px 40px;
+    margin: 0px 40px;
 }
 
-main section, footer section {
+main section,
+footer section {
     margin: 40px 0px;
 }
 

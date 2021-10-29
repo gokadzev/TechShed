@@ -12,6 +12,10 @@
 
 @media only screen and (max-width: 990px) {
 
+    .hotDealcartButton {
+        width: 35vw;
+    }
+
     .helpText h1,
     .navbar-title h1,
     .banner1 .right h3 {
@@ -246,6 +250,10 @@
 }
 
 @media only screen and (max-width: 600px){
+
+    .discountpr, .price {
+        font-size: 4vw;
+    }
     .navigationList {
         flex-wrap: wrap;
         text-align: center;
@@ -263,6 +271,10 @@
 
     .products-area .cards-area .card {
         inline-size: auto;
+        margin: unset;
     }
 
+    main {
+        margin: 0px 10px;
+    }
 }

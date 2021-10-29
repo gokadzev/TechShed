@@ -112,10 +112,11 @@ a.btn-dark:focus {
 
 .mainBanner {
     background: url(https://static.wixstatic.com/media/84770f_f93005adebd248ae9b754b19f03a75c0~mv2.jpg/v1/fill/w_1343,h_530,al_r,q_85,usm_0.66_1.00_0.01/84770f_f93005adebd248ae9b754b19f03a75c0~mv2.webp);
-    max-width: 1350px;
+    max-width: 1340px;
     height: 530px;
     width: 100%;
     display: flex;
+    margin: auto;
 }
 
 .mainBanner .left {
@@ -242,7 +243,7 @@ a.btn-dark:focus {
 .products-area .cards-area .card {
     border: none;
     background-color: unset;
-    max-width: 236px;
+    max-width: 35vw;
     max-height: 360px;
     width: 100%;
     margin: 0px 2%;
@@ -343,7 +344,7 @@ a.btn-dark:focus {
 .hotDeals-area .card {
     background: none;
     border: none;
-    max-width: 190px;
+    max-width: 35vw;
 }
 
 .hotDeals-area .card-body,
@@ -434,7 +435,7 @@ a.btn-dark:focus {
 .brands-area img {
     max-width: 300px;
     height: 140px;
-    width: 100%;
+    width: 49%;
 }
 
 .input-subscribe {
@@ -485,6 +486,8 @@ a.btn-dark:focus {
 }
 
 .help-area .left {
+    display: flex;
+    justify-content: center;
     width: 50%;
     background-color: black;
     color: white;
@@ -504,7 +507,6 @@ a.btn-dark:focus {
 .helpText {
     width: 380px;
     margin: auto;
-    margin-top: 75px;
 }
 
 .navigationList {
@@ -605,7 +607,7 @@ p {
 
 
 main {
-    margin: 0px 40px;
+    overflow-x: hidden;
 }
 
 main section,

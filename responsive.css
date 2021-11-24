@@ -144,6 +144,11 @@
 
 @media only screen and (max-width: 768px) {
 
+    footer {
+        width: 93%;
+        margin: auto;
+    }
+
     .helpText h1,
     .navbar-title h1 {
         font-size: 6vw;
@@ -185,7 +190,9 @@
     }
 
     .expectation-from-our-company {
-        display: block;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
 
     .expectation-from-our-company .card {

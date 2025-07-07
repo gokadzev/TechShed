@@ -573,7 +573,7 @@ nav .container-fluid {
 }
 
 .about-section .right .about-info {
-  width: 380px;
+  width: 80%;
   margin: auto;
 }
 
@@ -738,7 +738,7 @@ footer {
     margin: 0px auto;
     width: 100%;
     max-width: 500px;
-    height: 360px;
+    height: 385px;
     text-align: center;
   }
 
@@ -942,7 +942,8 @@ footer {
   .open-hours-nav,
   .open-hours-nav,
   .store-location-nav {
-    width: 50%;
+    width: 43%;
+    margin: 2% 3%;
     max-width: none;
   }
 }

@@ -165,9 +165,10 @@ nav .container-fluid {
   margin: 100px;
 }
 
-.banner2Button {
+.second-banner-button {
   max-width: 170px;
   width: 100%;
+  margin-top: 14px;
 }
 
 .suggestions,
@@ -418,6 +419,7 @@ nav .container-fluid {
 
 .first-banner-button {
   max-width: 160px;
+  margin-top: 14px;
 }
 
 .first-banner-button:hover {
@@ -632,6 +634,7 @@ footer section {
 .socmedia-area {
   display: flex;
   gap: 15px;
+  margin: auto;
 }
 
 footer .crtext {
@@ -846,6 +849,10 @@ footer {
 
   .navbar-title {
     margin: auto;
+  }
+
+  .go-to-help {
+    margin-top: 20px;
   }
 
   .suggestions .left,

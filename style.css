@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #751fff;
+  --button-radius: 28px;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -7,9 +12,9 @@ body {
 
 .button {
   border: none;
-  border-radius: 28px;
+  border-radius: var(--button-radius);
   color: white;
-  background-color: #751fff;
+  background-color: var(--primary-color);
   transition: 0.4s;
   height: 50px;
   font-family: 'Nunito', sans-serif;
@@ -86,7 +91,7 @@ nav .container-fluid {
 }
 
 .active {
-  color: #751fff !important;
+  color: var(--primary-color) !important;
 }
 
 .nav-buttons a {
@@ -103,7 +108,7 @@ nav .container-fluid {
 }
 
 .nav-link:hover {
-  color: #751fff !important;
+  color: var(--primary-color) !important;
 }
 
 .nav-buttons {
@@ -137,7 +142,7 @@ nav .container-fluid {
 
 .discount {
   border: none;
-  background-color: #751fff;
+  background-color: var(--primary-color);
   max-width: 260px;
   height: 78px;
   width: 100%;
@@ -245,11 +250,11 @@ nav .container-fluid {
 
 .shop-button {
   border: none;
-  background-color: #751fff;
+  background-color: var(--primary-color);
   color: white;
   width: 200px;
   height: 50px;
-  border-radius: 28px;
+  border-radius: var(--button-radius);
   transition: 0.6s;
 }
 
@@ -263,7 +268,7 @@ nav .container-fluid {
   background-color: white;
   width: 140px;
   height: 40px;
-  border-radius: 28px;
+  border-radius: var(--button-radius);
   transition: 0.8s;
 }
 

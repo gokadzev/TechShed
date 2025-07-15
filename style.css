@@ -175,7 +175,7 @@ nav .container-fluid {
   width: 49%;
 }
 
-.banner2 {
+.second-banner {
   width: 100%;
   height: 360px;
   background: url(https://static.wixstatic.com/media/c22c23_74cafbca21f34feeba648b9e2fd0f9cc~mv2.jpg/v1/fill/w_1343,h_360,al_r,q_85,usm_0.66_1.00_0.01/c22c23_74cafbca21f34feeba648b9e2fd0f9cc~mv2.webp);
@@ -183,20 +183,15 @@ nav .container-fluid {
   box-sizing: border-box;
 }
 
-.banner2 h3 {
+.second-banner-content h3 {
   color: white;
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
 }
 
-.banner2 h1 {
+.second-banner-content h1 {
   color: white;
   max-width: 300px;
-}
-
-.banner2Text {
-  position: absolute;
-  margin: 100px;
 }
 
 .second-banner-button {
@@ -228,7 +223,8 @@ nav .container-fluid {
   font-weight: 200;
 }
 
-.suggestions .suggestion {
+.suggestions .suggestion,
+.second-banner-content {
   width: 100%;
   padding: 50px;
   box-sizing: border-box;
@@ -714,7 +710,7 @@ footer {
     background-position: center;
   }
 
-  .banner2,
+  .second-banner,
   .main-banner {
     background-position: center;
   }

@@ -783,6 +783,11 @@ footer {
     text-align: center;
   }
 
+  .categories-area .card .card-content {
+    width: 100%;
+    text-align: center;
+  }
+
   .expectation-from-our-company {
     display: grid;
     align-items: center;

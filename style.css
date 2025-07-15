@@ -487,7 +487,7 @@ nav .container-fluid {
 .navigation-list {
   display: flex;
   justify-content: space-between;
-  margin: 0px 50px;
+  padding: 55px;
 }
 
 .navigation-list .section-text {
@@ -503,7 +503,9 @@ nav .container-fluid {
 .policy-nav,
 .open-hours-nav,
 .store-location-nav {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   max-width: 25%;
 }
 
@@ -588,9 +590,8 @@ footer section {
 
 footer .crtext {
   background-color: #edecec;
-  height: 50px;
   text-align: center;
-  padding: 5%;
+  padding: 2%;
   display: flex;
   box-sizing: border-box;
 }

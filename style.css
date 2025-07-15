@@ -5,6 +5,35 @@ body {
   overflow-x: hidden;
 }
 
+.button {
+  border: none;
+  border-radius: 28px;
+  color: white;
+  background-color: #751fff;
+  transition: 0.4s;
+  height: 50px;
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button-small {
+  width: 140px;
+  height: 40px;
+}
+.button-medium {
+  width: 170px;
+}
+.button-large {
+  width: 200px;
+}
+.button-xl {
+  width: 232px;
+}
+
 .navbar-first,
 .navbar,
 main {
@@ -33,8 +62,7 @@ a:hover {
   color: black;
 }
 
-button:focus,
-a.btn-dark:focus {
+button:focus {
   outline: 0;
   border: 0;
 }
@@ -353,17 +381,6 @@ nav .container-fluid {
   padding: 1rem 0rem;
 }
 
-.shop-area {
-  display: flex;
-  max-width: 360px;
-  width: 100%;
-}
-
-.shop-area .left {
-  margin-right: 20px;
-  z-index: 1;
-}
-
 .categories-area {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -394,11 +411,6 @@ nav .container-fluid {
   transition: 1.2s;
 }
 
-.shop-category-button {
-  width: 190px;
-  height: 45px;
-}
-
 .first-banner {
   display: flex;
   background-color: #000000;
@@ -415,16 +427,6 @@ nav .container-fluid {
 
 .first-banner .right {
   margin: auto;
-}
-
-.first-banner-button {
-  max-width: 160px;
-  margin-top: 14px;
-}
-
-.first-banner-button:hover {
-  background-color: white;
-  color: black;
 }
 
 .hot-deals-area .card img {
@@ -447,48 +449,6 @@ nav .container-fluid {
   max-width: 300px;
   height: 140px;
   width: 49%;
-}
-
-.input-subscribe {
-  display: flex;
-  justify-content: center;
-}
-
-.input-subscribe input {
-  width: 700px;
-  height: 50px;
-  border-radius: 28px;
-}
-
-.subscribe-button {
-  border: none;
-  color: white;
-  background-color: #000;
-  width: 232px;
-  height: 50px;
-  border-radius: 28px;
-  position: relative;
-  right: 40px;
-  transition: 0.4s;
-}
-
-.subscribe-button:hover {
-  background-color: #a485d6;
-}
-
-.go-to-help {
-  border: none;
-  color: white;
-  background-color: #751fff;
-  width: 200px;
-  height: 50px;
-  border-radius: 28px;
-  transition: 0.4s;
-}
-
-.go-to-help:hover {
-  background-color: white;
-  color: black;
 }
 
 .help-area {
@@ -589,17 +549,6 @@ p {
   font-weight: 400;
 }
 
-.discount-symbol {
-  position: relative;
-  display: grid;
-  width: 80px;
-  height: 80px;
-  background-color: #d72d2e;
-  border-radius: 40px;
-  text-align: center;
-  border: 1px solid white;
-}
-
 .discount-symbol h5 {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
@@ -624,11 +573,6 @@ main {
 main section,
 footer section {
   margin: 40px 0px;
-}
-
-.view-all-button {
-  width: 265px;
-  height: 50px;
 }
 
 .socmedia-area {
@@ -774,10 +718,6 @@ footer {
     order: 1;
   }
 
-  .shop-area {
-    margin: 0px auto;
-  }
-
   .categories-area .card .card-text {
     width: unset;
   }
@@ -808,11 +748,6 @@ footer {
 
   .help-area .right {
     width: 50%;
-  }
-
-  .col-md-8 {
-    flex: 0 0 auto;
-    width: 100%;
   }
 
   .crtext {
@@ -849,10 +784,6 @@ footer {
 
   .navbar-title {
     margin: auto;
-  }
-
-  .go-to-help {
-    margin-top: 20px;
   }
 
   .suggestions .left,
@@ -915,10 +846,6 @@ footer {
 
   .first-banner .right h1 {
     font-size: 20px;
-  }
-
-  .first-banner-button {
-    margin-right: 21px;
   }
 
   .navigation-list {
